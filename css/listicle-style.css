@@ -7,9 +7,9 @@ body{
     margin: 0;
     padding: 0;
     /*text-align: center;*/
-    background-image: url('../images/header.jpg');
     background-repeat:no-repeat;
     background-size: 100% 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/header.jpg);
 }
 
 #title-area{
@@ -70,25 +70,23 @@ body{
 }
 
 #content-area{
-    margin: 0;
     margin-top: 60px;
     width: 100%;
-
 }
 
 #content-list{
     list-style-type: decimal;
-    width: 100%;
+    align-content: center;
     align-items: center;
     justify-content: center;
     display: flex;
 }
 
-.content-area{
-    margin: 0 auto;
+.content-item{
+    margin-left: 40px;
 }
 
 .content{
     width: 66.67%;
-    margin-left: 40px;
+
 }
